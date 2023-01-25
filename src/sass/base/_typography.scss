@@ -1,0 +1,37 @@
+html {
+  font-size: 16px;
+  @include minMedia(550) {
+    font-size: $base-font-size;
+  }
+}
+
+body {
+  font-family: $text-font-stack;
+  color: theme_text_color("greydark");
+  font-weight: 400;
+  line-height: $base-line-height;
+  background: theme_color("primary");
+}
+
+@include placeholderColor(inherit);
+
+.input-error,
+.form-error {
+  color: theme_text_color("error");
+  font-size: 13px;
+}
+
+p{
+  @extend body;
+  font-size: 16px;
+  height: auto;
+  background: none;
+  @include minMedia(550) {
+    font-size: 1rem;
+  }
+}
+
+@import "fonts";
+@import "titles";
+
+

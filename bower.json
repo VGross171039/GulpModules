@@ -1,0 +1,21 @@
+{
+  "name": "Refact",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Vladlen Schetinin"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/VGross171039/GulpRefact",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
